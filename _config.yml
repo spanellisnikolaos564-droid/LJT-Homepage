@@ -34,14 +34,6 @@ read_more                : "enabled"
 talkmap_link             : false
 comments:
   provider               :
-atom_feed:
-  hide                   : true
-
-# SEO
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
 
 # Social sharing
 twitter:
@@ -150,9 +142,6 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-# paginate: ! <div id="pages">
-#   <h1>Hello, World!</h1>
-# </div>
 timezone: Etc/UTC
 
 # Plugins
