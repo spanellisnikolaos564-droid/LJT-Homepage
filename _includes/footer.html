@@ -1,1 +1,18 @@
-{% include base_path %}\n<div class="page__footer-follow">\n  <ul class="social-icons">\n    {% if site.author.github %}\n      <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>\n    {% endif %}\n    {% if site.author.googlescholar %}\n      <li><a href="{{ site.author.googlescholar }}">Google Scholar</a></li>\n    {% endif %}\n    {% if site.author.twitter %}\n      <li><a href="https://x.com/{{ site.author.twitter }}">X (Twitter)</a></li>\n    {% endif %}\n  </ul>\n</div>\n\n<div class="page__footer-copyright">\n  &copy; {{ site.name | default: site.title }}. Powered by <a href="https://github.com/academicpages/academicpages.github.io">Academic Pages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.\n</div>\n
+{% include base_path %}
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.author.github %}
+      <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    {% endif %}
+    {% if site.author.googlescholar %}
+      <li><a href="{{ site.author.googlescholar }}">Google Scholar</a></li>
+    {% endif %}
+    {% if site.author.twitter %}
+      <li><a href="https://x.com/{{ site.author.twitter }}">X (Twitter)</a></li>
+    {% endif %}
+  </ul>
+</div>
+
+<div class="page__footer-copyright">
+  &copy; {{ site.name | default: site.title }}. Powered by <a href="https://github.com/academicpages/academicpages.github.io">Academic Pages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
+</div>
